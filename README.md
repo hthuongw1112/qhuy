@@ -11,6 +11,6 @@
 4. ngrok config add-authtoken { your token here }
 5. Add a line at the end of the file ~\.bashrc
 - alias start='java -Xms128M -Xmx12GB -jar spigot-1.21.4.jar --nogui'
-7. them use screen to start your server :D using alias and ngrok
+7. then use "screen" to start your server :D using alias and ngrok
 
 Enjoy
