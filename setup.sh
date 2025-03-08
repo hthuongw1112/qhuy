@@ -31,7 +31,7 @@ sudo pacman -S hyprland waybar wofi rofi-wayland kitty alacritty \
     python-pyserial python-pyusb python-can python-smbus python-picamera \
     python-pygame python-pyopengl python-pybullet \
     terraform ansible vagrant kubectl helm \
-    gdb valgrind strace ltrace perf && \
+    gdb valgrind strace ltrace perf brave-browser && \
 pip install --upgrade pip && \
 pip install poetry invoke pre-commit pipx jupyterlab ipython \
     numpy scipy pandas sympy matplotlib seaborn statsmodels \
