@@ -1,0 +1,14 @@
+#!/bin/sh
+exec tail -n +3 $0
+menuentry "Ubuntu Live ISO" {
+    insmod part_gpt
+    insmod ext2
+    insmod loopback
+
+    set iso_path="/ubuntu/ubuntu.iso"
+    search --no-floppy --set=root --fs-uuid 12345678-ABCD-1234-EFGH-56789ABCDEF0
+
+    loopback loop ($root)$iso_path
+    linux (loop)/casper/vmlinuz boot=casper iso-scan/filename=$iso_path noprompt noeject
+    initrd (loop)/casper/initrd
+}
