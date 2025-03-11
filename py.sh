@@ -1,10 +1,1 @@
-pip install --upgrade pip && \
-pip install poetry invoke pre-commit pipx jupyterlab ipython \
-    numpy scipy pandas sympy matplotlib seaborn statsmodels \
-    tensorflow torch torchvision torchaudio jax flax optax \
-    fastapi pydantic starlette httpx uvicorn gunicorn \
-    flask django celery redis pymongo psycopg2-binary mysqlclient \
-    cryptography paramiko fabric boto3 pyjwt pycryptodome \
-    scapy mitmproxy beautifulsoup4 lxml selenium \
-    pynvim neovim autopep8 pylint mypy black isort \
-    opencv-python-headless imageio pillow
+wget https://software.download.prss.microsoft.com/dbazure/Win11_24H2_English_x64.iso?t=0c44d924-2b36-4bfb-939f-3fc5dcca85a6&P1=1741797921&P2=601&P3=2&P4=nfMrfWbTIK898OsCjzgULCTstpTKFHs8gO%2fknryT8idak7UI%2fZ%2b123cHMCA%2bcHFRULwwSudKhznpxid5mByQKFQnKMpE7BgWjgSYqxhgIjK%2fIlcWTsw460GVNj6Q1E480RCvceQoX5%2bSYu8CkKhNW9Vao0r7C2HEUi8yYm2plb5MxKZ31SPGHJ2XSITVg%2bmQblut4mVkWE822CloLxi5MsGWutlY1KWj4REHh4pALOz%2fsm9ZIZqc1J8LZd%2frpWPSo5XhVlcPA9PmZ2zNa8mOGKtCHrwT7VzpWVlRu0%2bzCNUVcPvbOyVUv%2bQiu4Cb%2bktzX83X8pmYK8B3rK%2f4no0giA%3d%3d
